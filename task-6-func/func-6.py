@@ -1,5 +1,5 @@
 def repeat_word(word, times):
-    return(word * times)
+    return(" ".join([word] * times))
 
-x = repeat_word("hello ", 3)
+x = repeat_word("hello", 3)
 print(x)
